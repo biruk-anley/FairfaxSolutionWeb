@@ -223,8 +223,9 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 70px;
   margin-right: 6px;
+  
 }
 
 .header .logo h1 {
@@ -887,6 +888,14 @@ section {
   position: absolute;
   inset: 0;
 }
+@media (max-width: 740px) {
+  
+
+  .header .logo img {
+    max-height: 50px;
+    margin-right: 6px;
+  }
+  }
 
 @media (min-width: 1365px) {
   .hero-fullscreen {
@@ -954,10 +963,12 @@ section {
   color: rgba(var(--color-primary-rgb), 0.8);
 }
 
+
 @media (max-width: 640px) {
   .hero-fullscreen h2 {
     font-size: 32px;
   }
+    
 
   .hero-fullscreen p {
     font-size: 18px;
