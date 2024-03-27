@@ -47,7 +47,19 @@
 </head>
 
 <body>
-
+<style>
+  .bg-sr {
+    background-image: url('assets/img/t.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    height: 85vh;
+    width: 100%;
+  }
+ 
+    
+  
+</style>
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top" data-scrollto-offset="0">
     <div class="container-fluid d-flex align-items-center justify-content-between">
@@ -73,22 +85,23 @@
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
 
-      <a class="btn-getstarted scrollto" href="index.html#contact">Get Started</a>
+      <a class="btn-getstarted scrollto" href="index.html#contact">Contact Us</a>
 
     </div>
   </header><!-- End Header -->
 
-  <section id="hero-animated" class="hero-animated d-flex align-items-center">
-    <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-      <img src="assets/img/hero-carousel/hero-carousel-5.svg" class="img-fluid animated">
-      <h2>Welcome to <span>Fairfax</span></h2>
-      <p>Empowering Your Business with Expert Consultancy Solutions.</p>
-      <!-- <div class="d-flex">
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-      </div> -->
-    </div>
-  </section>
+  <section id="hero-animated" class="hero-animated d-flex align-items-center height-100vh">
+  
+  <div class=" d-flex flex-column justify-content-center align-items-center text-center  bg-sr" data-aos="zoom-out">
+    
+  <div class="background-red" style="position: absolute; z-index: 1;">
+    
+    <h2 class="color-white" style="font-size: 5rem; font-weight: 900;">Welcome to Fairfax </h2>
+    <p class="color-white "style="font-size: 1.5rem;">Empowering Your Business with Expert Consultancy Solutions.</p>
+ 
+  </div>
+</section>
+  
 
   <main id="main">
 
@@ -118,15 +131,37 @@
 
             <!-- Tabs -->
             <ul class="nav nav-pills mb-3">
-              <li><a class="nav-link active" data-bs-toggle="pill" href="#tab1">Goal</a></li>
+              
+              <li><a class="nav-link active" data-bs-toggle="pill" href="#tab0">Background</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab1">Goal</a></li>
+
               <li><a class="nav-link" data-bs-toggle="pill" href="#tab2">Empower</a></li>
               <li><a class="nav-link" data-bs-toggle="pill" href="#tab3">Expertise</a></li>
             </ul><!-- End Tabs -->
 
             <!-- Tab Content -->
             <div class="tab-content">
+              <div class="tab-pane fade show active" id="tab0">
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Establishment & Expertise</h4>
+                </div>
+                <p>Fairfax Solutions, founded in August 2007, is an innovative tech firm in Ethiopia, focusing on ERP systems, training,
+                and consulting</p>
+              
+                <div class="d-flex align-items-center mt-4">
+                  <i class="bi bi-check2"></i>
+                  <h4>Notable Achievements and Partnerships</h4>
+                </div>
+                <p>Fairfax Solutions has spearheaded successful SAP implementations for prominent Ethiopian organizations such as Derban
+                Sement, Redcross, DKT Ethiopia, Teklebrehan, Corporate Bank of Oromia (Coop), BeAeka, and Ethiopian Electric Utility
+                (EEU). These partnerships underscore Fairfax Solutions' dedication to driving technological advancements and operational
+                efficiencies across diverse sectors in Ethiopia.</p>
+              
+               
+              </div><!-- End Tab 1 Content -->
 
-              <div class="tab-pane fade show active" id="tab1">
+              <div class="tab-pane fade show" id="tab1">
 
                 <p class="fst-italic">Driving growth through innovative technology solutions. As a top SAP partner, we guarantee seamless integrations.</p>
 
@@ -417,13 +452,7 @@
               </div>
             </div><!-- End Clients4 Item -->
 
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
-              <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/img/portfolio/product-1.jpg"  data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-              </div>
-            </div><!-- End Clients4 Item -->
+           
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
               <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
@@ -434,28 +463,22 @@
             </div><!-- End Clients4 Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
-              <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/book-11.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/portfolio/book11.jpg" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
               </div>
             </div><!-- End Clients4 Item -->
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/app-22.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <a href="assets/img/portfolio/app-2.jpg"  data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/portfolio/app-22.jpg"  data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
               </div>
             </div><!-- End Clients4 Item -->
 
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
-              <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/img/portfolio/product-2.jpg"  data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-              </div>
-            </div><!-- End Clients4 Item -->
+            
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
               <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
@@ -477,30 +500,6 @@
               <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <a href="assets/img/portfolio/app-3.jpg"  data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-              </div>
-            </div><!-- End Clients4 Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
-              <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/img/portfolio/product-3.jpg"  data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-              </div>
-            </div><!-- End Clients4 Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
-              <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/img/portfolio/branding-3.jpg"  data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-              </div>
-            </div><!-- End Clients4 Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
-              <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/img/portfolio/books-3.jpg"  data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
               </div>
             </div><!-- End Clients4 Item -->
@@ -531,7 +530,7 @@
               </div>
               <div class="member-info">
                 <div class="social">
-                  <a href="https://www.linkedin.com/in/wogene-alene-310718/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/wogene-alene-310718" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Wogene Alene</h4>
                 <span>Managing Director</span>
@@ -546,7 +545,7 @@
               </div>
               <div class="member-info">
                 <div class="social">
-                  <a href="https://www.linkedin.com/in/yonas-fikru-8538691a/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/yonas-fikru-8538691a" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Yonas Fikru</h4>
                 <span>Sales and Marketing Director</span>
@@ -561,10 +560,26 @@
               </div>
               <div class="member-info">
                 <div class="social">
-                  <a href="https://www.linkedin.com/in/beakal-girma-314b7944/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/bizuayehu-abebe-60745586" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </div>
-                <h4>Beakal Girma</h4>
-                <span>Team Leader</span>
+                <h4>Bizuayehu Abebe</h4>
+                <span>Senior consultant :
+                Logistics</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/hanna-astawesegn-tefera-3b6085244" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>Hanna Astawesegn</h4>
+                <span>Senior consultant: finance</span>
               </div>
             </div>
           </div><!-- End Team Member -->
